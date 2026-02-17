@@ -1,7 +1,7 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 import axios from 'axios';
-import { User, AuthResponse } from '../types';
+import type { User, AuthResponse } from '../types';
 
 interface AuthState {
   user: User | null;
